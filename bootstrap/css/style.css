@@ -45,8 +45,8 @@ body:before {
 /* header */
 header{
     width: 100%;
-    height: 600px;
-    background: #bdc3c7;  /* fallback for old browsers */
+    height: 500px;
+    background: #d3e1eb;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2c3e5075, #bdc3c771), url(../media/imagenes/logo.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: linear-gradient(to right, #2c3e5075, #bdc3c771), url(../media/imagenes/logo.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     ;
@@ -150,6 +150,10 @@ footer{
     padding: 30px 0 30px 0;
     margin: auto;
     overflow: hidden;
+    background: -webkit-linear-gradient(to right, #2c3e5075, #bdc3c771), url(../media/imagenes/logo.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #464e5575, #3b414471), url(../media/imagenes/logo.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+
 }
 .contenedor-footer{
     display: flex;
@@ -164,13 +168,16 @@ footer{
 
 }
 .content-foo h4{
-    color: black;
+    color: wheat;
     border-bottom: 2px solid #252225;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 .content-foo p{
-    color: #ccc;
+    color: white;
+}
+.parrafo{
+    color: white;
 }
 .titulo-final{
     text-align: center;
